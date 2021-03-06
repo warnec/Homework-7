@@ -1,2 +1,3 @@
 def testLeap(num):
-    pass
+    if num % 4 == 0:
+        return "The entered year is a leap year"
